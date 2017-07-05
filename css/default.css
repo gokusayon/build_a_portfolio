@@ -1,19 +1,23 @@
-
 /* Tags*/
+
 body {
-  padding: 20px 0;
-  font: 300 14px "Lato", sans-serif;
-  color: #666756;
-  background: #fff;
+    padding: 20px 0;
+    font: 300 14px "Lato", sans-serif;
+    color: #666756;
+    background: #fff;
 }
 
-img {max-width:100%}
+img {
+    max-width: 100%
+}
 
 hr {
     border-top: 2px solid #bbb;
 }
 
+
 /* Portfolio : This is header part.*/
+
 .portfolio {
     margin-top: 10px;
     text-align: right;
@@ -29,36 +33,44 @@ hr {
     margin: 10px;
 }
 
+
 /* Project - This is the main part*/
-.project{
+
+.project {
     padding-top: 15px;
     text-align: center;
 }
 
-.project:hover{
-    background-color: #EEE;
+.project:hover {
+    background-color: #eee;
 }
 
+
 /* .icon-prev/ .icon-next - Bootstrap default styles for carousel*/
-.icon-prev{
+
+.icon-prev {
     color: black;
     left: 0;
 }
 
-.icon-next{
+.icon-next {
     color: black;
     right: 0;
 }
 
-/* footer - This class is for footer tag*/
+
+/* .footer - This class is for footer tag*/
+
 .footer {
-  margin-top: 20px;
-  text-align: right;
+    margin-top: 20px;
+    text-align: right;
 }
+
 
 /* 
     Responsive Designs
 */
+
 
 /*Large Devices*/
 
@@ -67,58 +79,60 @@ hr {
         text-align: center;
     }
     .portfolio-img {
-    	margin-top: 20px;
+        margin-top: 20px;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
 }
+
 
 /*Medium Devices*/
-@media only screen and (max-width: 768px  ){
-	
+
+@media only screen and (max-width: 768px) {
     .portfolio {
         text-align: center;
     }
     .portfolio-img {
-    	margin-top: 10px;
+        margin-top: 10px;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
 }
+
 
 /*Small Devices */
-@media only screen and (max-width: 470px ){
-	
+
+@media only screen and (max-width: 470px) {
     .portfolio {
         text-align: center;
     }
     .portfolio-img {
-    	margin-top: 5px;
+        margin-top: 5px;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
     .portfolio-name {
-    font-size: 2.857em;
-  }
+        font-size: 2.857em;
+    }
 }
+
 
 /*Extra Small Devices*/
-@media only screen and (max-width: 320px ){
-	
+
+@media only screen and (max-width: 320px) {
     .portfolio {
         text-align: center;
     }
     .portfolio-img {
-    	margin-top: 3px;
+        margin-top: 3px;
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
     .portfolio-name {
-    font-size: 2.857em;
-  }
+        font-size: 2.857em;
+    }
 }
-
