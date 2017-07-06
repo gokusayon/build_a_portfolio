@@ -45,6 +45,10 @@ hr {
     background-color: #eee;
 }
 
+.project-name {
+    color: #848484;
+}
+
 
 /* .icon-prev/ .icon-next - Bootstrap default styles for carousel*/
 
